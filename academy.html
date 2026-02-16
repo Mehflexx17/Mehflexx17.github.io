@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akademi – müziğim.net</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="academy-page">
+  <header class="main-header">
+    <a href="index.html" class="logo">müziğim.net</a>
+    <div class="menu-dots-wrap">
+      <button type="button" class="menu-dots-btn" id="menu-dots-btn" aria-label="Menü" aria-expanded="false">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </button>
+      <div class="menu-dots-dropdown" id="menu-dots-dropdown" aria-hidden="true">
+        <a href="index.html" target="_blank" rel="noopener" class="dropdown-item">Ana Sayfa</a>
+        <a href="rock.html" target="_blank" rel="noopener" class="dropdown-item">Rock</a>
+      </div>
+    </div>
+  </header>
+
+  <button type="button" class="sidebar-toggle" id="sidebar-toggle" aria-label="Menüyü aç/kapat">☰</button>
+  <div class="academy-wrap">
+  <aside class="sidebar" id="sidebar">
+    <nav class="sidebar-nav">
+      <a href="rock.html" target="_blank" rel="noopener" class="nav-link">Türler</a>
+      <a href="#section-enstrumanlar" class="nav-link">Enstrümanlar</a>
+      <a href="#section-teknikler" class="nav-link">Teknikler</a>
+      <a href="#section-unluler" class="nav-link">Ünlü Müzisyenler</a>
+      <a href="#section-ders" class="nav-link">Ders Programı</a>
+    </nav>
+  </aside>
+
+  <main class="academy-main content-area" id="academy-main">
+    <div class="academy-inner">
+      <section id="section-enstrumanlar" class="academy-section">
+        <h2>Enstrümanlar</h2>
+        <p>Gitar, bateri, piyano, bas ve vokal için seviye bazlı programlar.</p>
+        <div class="card-grid">
+          <article class="glass card">Gitar</article>
+          <article class="glass card">Bateri</article>
+          <article class="glass card">Piyano</article>
+          <article class="glass card">Bas Gitar</article>
+          <article class="glass card">Vokal</article>
+        </div>
+      </section>
+
+      <section id="section-teknikler" class="academy-section">
+        <h2>Teknikler</h2>
+        <p>Alternate picking, downpicking, palm muting, legato, vibrato ve daha fazlası.</p>
+        <div class="card-grid">
+          <article class="glass card">Alternate Picking</article>
+          <article class="glass card">Palm Muting</article>
+          <article class="glass card">Sweep Picking</article>
+          <article class="glass card">Legato</article>
+        </div>
+      </section>
+
+      <section id="section-unluler" class="academy-section">
+        <h2>Ünlü Müzisyenler</h2>
+        <p>Efsane gitaristler, davulcular ve piyanistlerin tarz ve teknik incelemeleri.</p>
+        <div class="card-grid">
+          <article class="glass card">Ünlü Gitaristler</article>
+          <article class="glass card">Ünlü Davulcular</article>
+          <article class="glass card">Ünlü Piyanistler</article>
+        </div>
+      </section>
+
+      <section id="section-ders" class="academy-section">
+        <h2>Ders Programı</h2>
+        <p>Başlangıçtan sahne seviyesine adım adım yol haritası.</p>
+        <div class="card-grid">
+          <article class="glass card">Rock Programı</article>
+          <article class="glass card">Metal Programı</article>
+          <article class="glass card">Enstrüman Paketleri</article>
+        </div>
+      </section>
+    </div>
+  </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
